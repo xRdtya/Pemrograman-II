@@ -1,8 +1,9 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class PRAK101_2510817110008_NOUFALRADITYAWARDANA {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.print("Masukkan Nama Lengkap: ");
         String namaLengkap = input.nextLine();
