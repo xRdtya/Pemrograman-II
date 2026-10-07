@@ -9,7 +9,7 @@ public class PRAK102_2510817110008_NOUFALRADITYAWARDANA {
         int i = 0;
         int angka = angkaAwal;
 
-        while (i < 11) {
+        while (i < 10) {
             int hasil;
 
             if (angka % 5 == 0) {
